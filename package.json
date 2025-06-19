@@ -6,9 +6,17 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": ["chartjs", "plugin", "tree", "graph", "node"],
+  "keywords": ["chartjs", "plugin", "tree", "graph", "node", "chartjs-plugin"],
   "author": "Francesco Riva",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cheskito/chartjs-chart-treenode.git"
+  },
+  "homepage": "https://github.com/Cheskito/chartjs-chart-treenode#readme",
+  "bugs": {
+    "url": "https://github.com/Cheskito/chartjs-chart-treenode/issues"
+  },
   "peerDependencies": {
     "chart.js": "^4.0.0"
   },
