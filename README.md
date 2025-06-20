@@ -19,6 +19,23 @@ O si usas CDN:
 
 ---
 
+**Versión de prueba:**  
+Si quieres probar una versión experimental (puede contener errores o cambios inestables), puedes instalar:
+
+```bash
+npm install chartjs-chart-treenode-test
+```
+
+O por CDN:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treenode-test"></script>
+```
+
+> ⚠️ Esta versión es solo para pruebas y puede no ser estable.
+
+---
+
 ## 🧠 ¿Qué es esto?
 
 Este plugin de Chart.js permite visualizar nodos y relaciones jerárquicas (tipo árbol) usando datasets con enlaces `from → to`. Calcula automáticamente la profundidad, la posición vertical y dibuja conexiones suavizadas entre nodos, con soporte para colores personalizados, bordes y tooltips flotantes personalizados.

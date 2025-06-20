@@ -3,6 +3,7 @@
 const treeGraphPlugin = {
   id: 'treeGraph',
   afterDraw(chart) {
+    if (chart.config.type !== 'scatter') return;
     const dataset = chart.data.datasets[0];
     const links = dataset.data;
     if (!links || !Array.isArray(links)) return;

@@ -1,6 +1,6 @@
 {
-  "name": "chartjs-chart-treenode",
-  "version": "1.0.0",
+  "name": "chartjs-chart-treenode-test",
+  "version": "1.0.1",
   "description": "A Chart.js plugin to render tree node graphs",
   "main": "dist/chartjs-chart-treenode.min.js",
   "scripts": {
